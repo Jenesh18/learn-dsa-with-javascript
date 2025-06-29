@@ -89,3 +89,64 @@ for (let char of "apple") {
 Objects are **highly efficient** for storing and retrieving values **by key**, but slower if you need to search by value or iterate over everything.
 
 ---
+
+# ❓ Object Operations Quiz
+
+Test your understanding of object-related operations and their Big O time complexity.
+
+---
+
+### ✅ 1. What is the time complexity of accessing a property in a JavaScript object?
+A) O(n)  
+B) O(1)  
+C) O(log n)  
+D) O(n²)
+
+**Answer:** B) O(1)
+> Access by key is constant time.
+
+---
+
+### ✅ 2. What is the time complexity of searching for a value in an object?
+A) O(1)  
+B) O(log n)  
+C) O(n)  
+D) O(n log n)
+
+**Answer:** C) O(n)
+> You need to scan through all values manually.
+
+---
+
+### ✅ 3. What is the time complexity of deleting a key from an object?
+A) O(1)  
+B) O(n)  
+C) O(n log n)  
+D) O(n²)
+
+**Answer:** A) O(1)
+> Deleting a known key is constant time.
+
+---
+
+### ✅ 4. Which operation is slowest on large objects?
+A) Inserting a key–value pair  
+B) Accessing a property  
+C) Looping over all keys  
+D) Deleting a property
+
+**Answer:** C) Looping over all keys
+> Looping is O(n), while others are O(1).
+
+---
+
+### ✅ 5. What is the space complexity of storing `n` key–value pairs in an object?
+A) O(1)  
+B) O(n)  
+C) O(log n)  
+D) O(n²)
+
+**Answer:** B) O(n)
+> Each entry takes memory, so space grows with `n`.
+
+---
