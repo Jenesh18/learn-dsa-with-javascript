@@ -24,3 +24,5 @@ console.timeEnd("Formula Method");
 
 // Optional: Check if both results are equal
 console.log("Are results equal?", resultLoop === resultFormula);
+
+const stringtest = "test"
